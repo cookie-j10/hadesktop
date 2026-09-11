@@ -7,19 +7,19 @@ Windows 바탕화면에 하데스 멤버가 나타나는 팬 앱입니다.
 
 **[최신 버전 받기](https://github.com/cookie-j10/hadesktop/releases/latest)**
 
-Windows x64용이며 실행에 필요한 .NET 런타임이 포함되어 있습니다. EXE 설치와 ZIP 파일을 제공합니다.
+Windows x64용이며 실행에 필요한 .NET 런타임이 포함되어 있습니다. EXE 설치 파일과 무설치 ZIP 파일을 제공합니다.
 
 | 선택 | Releases의 Assets에서 받을 파일 |
 | --- | --- |
-| 설치판 · 권장 | `Hadesktop-Setup-버전.exe` |
-| 설치 없는 ZIP판 | `Hadesktop-v버전-win-x64.zip` |
+| EXE 설치 | `Hadesktop-Setup-버전.exe` |
+| 무설치 ZIP | `Hadesktop-v버전-win-x64.zip` |
 
 `latest.json`과 `SHA256SUMS.txt`는 따로 받을 필요가 없습니다.
 
 ## 설치와 첫 실행
 
-- **설치판:** EXE를 실행해 설치한 뒤 시작 메뉴의 **Hadesktop**을 실행하세요.
-- **ZIP판:** 전체 압축을 풀고 `CharacterView.App.exe`를 실행하세요.
+- **EXE 설치:** EXE를 실행해 설치한 뒤 시작 메뉴의 **Hadesktop**을 실행하세요.
+- **무설치 ZIP:** 전체 압축을 풀고 `CharacterView.App.exe`를 실행하세요.
 
 트레이 아이콘을 누르면 **멤버 / 설정 / 도움말**이 열립니다.
 
@@ -30,7 +30,7 @@ Windows x64용이며 실행에 필요한 .NET 런타임이 포함되어 있습�
 설치판은 앱에서 업데이트할 수 있습니다.
 직접 업데이트 버전을 설치하거나 교체할 때는 기존 앱을 먼저 종료하세요.
 
-설치판은 Windows **설정 → 앱 → 설치된 앱 → Hadesktop → 제거**, ZIP판은 앱 종료 후 압축을 푼 폴더를 삭제하면 됩니다. 
+설치판은 Windows **설정 → 앱 → 설치된 앱 → Hadesktop → 제거**, 무설치 ZIP은 앱 종료 후 압축을 푼 폴더를 삭제하면 됩니다. 
 저장된 설정은 기본적으로 유지됩니다. 설치판에서 설정까지 지우려면 제거 화면의 **저장된 설정도 삭제**를 선택하세요. 캐시와 임시 파일은 함께 정리됩니다.
 
 ## 배포 안내
